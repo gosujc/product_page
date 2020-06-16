@@ -11,7 +11,7 @@
 
 body, html {
     font-family: 'Quicksand', sans-serif;
-    color: #C2CAD0;
+    color: #FEFFFF;
     max-width: 100%;
 }
 
@@ -30,13 +30,27 @@ body, html {
 .heading,
 .heading p {
     float: left;
+    font-size: 30px;
+}
+
+.heading p {
+    margin: 20px 0 0 0;
 }
 
 .nav-bar {
     float: right;
     list-style-type: none;
+    margin: 30px 40px 0 0;
 }
 
 .nav-bar li {
     display: inline;
+    padding: 40px;
+}
+
+.guitar {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 20px 0 0 40px;
 }
