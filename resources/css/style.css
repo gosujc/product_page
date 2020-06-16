@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*******************/
+/**Body
+/*******************/
+
+
+body, html {
+    font-family: 'Quicksand', sans-serif;
+    color: #C2CAD0;
+    max-width: 100%;
+}
+
+/*******************/
+/**Header
+/*******************/
+
+#header {
+    background-image: url(https://images.unsplash.com/photo-1509170051686-83f8efd35a31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 777px;
+}
+
+.heading,
+.heading p {
+    float: left;
+}
+
+.nav-bar {
+    float: right;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    display: inline;
+}
