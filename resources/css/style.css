@@ -111,6 +111,36 @@ form {
 /**Features
 /*******************/
 
-.material-icons {
+.material-icons,
+.material-icons.md-48 {
+    color: rgba(255, 166, 0, 0.829);
+    font-size: 60px;
+    display: inline-block;
+}
+
+.grid {
+    display: flex;
+}
+
+#features {
+    background-color: rgb(243, 234, 234);
+    margin-top: 30px;
+}
+
+.icon {
+    align-items: center;
+    display: inline-block;
+}
+
+.desc {
     color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc h2 {
+    font-size: 18px;
+    display: flex;
+    margin-top:
 }
