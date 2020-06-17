@@ -120,16 +120,20 @@ form {
 
 .grid {
     display: flex;
+    text-align: center;
+    margin: 0 20% 0 20%;
 }
 
 #features {
     background-color: rgb(243, 234, 234);
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .icon {
     align-items: center;
-    display: inline-block;
+    display: inline;
+    justify-content: center;
+    padding: 20px;
 }
 
 .desc {
@@ -142,5 +146,5 @@ form {
 .desc h2 {
     font-size: 18px;
     display: flex;
-    margin-top:
+    margin-top: 0;
 }
