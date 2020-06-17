@@ -79,7 +79,7 @@ h2 {
     color: #000;
     text-align: center;
     font-size: 100px;
-    margin-top: 40px;
+    margin-top: 80px;
     font-family: 'PT Serif', serif;
 }
 
@@ -92,16 +92,25 @@ form {
 .email {
     text-align: center;
     width: 20%;
-    height: 30px;
-    margin: 20px 20px;
+    height: 22px;
+    margin: 10px;
 }
 
 #submit {
     display: block;
     margin: auto auto;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bold;
-    background: #FC4445;
+    background: #EFEFEF;
     width: 15%;
     height: 25px;
+    margin-bottom: 40px;
+}
+
+/*******************/
+/**Features
+/*******************/
+
+.material-icons {
+    color: #000;
 }
