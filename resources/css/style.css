@@ -236,3 +236,30 @@ li {
     border-radius: 2px;
     cursor: pointer;
 }
+
+/*******************/
+/**Footer
+/*******************/
+
+footer ul li{
+    padding: 0 10px;
+    color: #000;
+    margin: 20px 20px 5px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+    color: #000;
+}
+
+span {
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 26px 20px 0;
+}
+
